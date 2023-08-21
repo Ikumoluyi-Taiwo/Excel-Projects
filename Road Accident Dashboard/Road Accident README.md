@@ -93,5 +93,4 @@ Finally, some icons on the dashboard were hyperlinked in order to take the user 
 
 ![Screenshot (82)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/5f4aba27-23cc-4394-a9dc-6367f1914d54)
 
-
 With all that being done, the request from the stakeholders was fulfilled, and a report with an accompanying dynamic dashboard addressing their demands produced. 
