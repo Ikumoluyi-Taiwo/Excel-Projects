@@ -24,21 +24,29 @@ The client wants to create a road accident dashboard for the years 2021 and 2022
 There is a raw Excel dataset provided with over 307,000 rows and 23 Columns.
 
 ## Skills Shown.
-Data cleaning on this data set was minimal however, data processing and transformation skills like using formulas and building some customised columns with those formulas were carried out. During Analysis, the data was aggregated using Pivot tables and charts were created off those aggregaions which allowed for visualization of the data. Custom charts were created and formatting applied where necessary for the final dashboard which is dynamic.
+Data cleaning on this data set was minimal however, data processing and transformation skills like using formulas and building some customised columns with those formulas were carried out. During Analysis, the data was aggregated using Pivot tables and charts were created simultaneously off those aggregaions (Pivot Tables) which allowed for visualization of the data. Custom charts were created and formatting applied where necessary for the final dashboard which is dynamic.
 
 ## Transformation.
 First off, the data was inspected to make sure there were no blanks or missing values in the primary key field, typographical errors and duplictes. In this dataset duplicates were removed and a typo which was corrected as seen in this case: 
-In the Accident Severity column, 'Fatal' was misspelled as 'Fetal'
+### In the Accident Severity column, 'Fatal' was misspelled as 'Fetal'
+![Screenshot (54)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/66b4074d-65e7-41b0-8a7f-d69ca96570ee)
 
+### This was corrected using Find and Replace.
+![Screenshot (55)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/4b5b19e0-86ec-402b-861d-476a66b32bcb)
 
-The Target Tables contain information/records of Yearly/Monthly Product Targets (Volume) assigned to each Sales representative, identified by the SalesRepID. This table was duplicated four times for each distinct year (e.g., 2022, 2023, 2024, and 2025) separately. Subsequently, the corresponding tables were appended to form a new table, consolidating the previously separate yearly Target columns. The columns were edited and renamed based on the information they contain.
-The Target Table was then merged with the DimProducts Table using the Primary/Foreign Key relationship of the ProductID column in both tables to retrieve the Product Price. This is important in order to calculate the budgeted Target Revenue. The Month and Year columns were duplicated, and the duplicated columns were then merged to form a Date column. Furthermore, the Sales 2022 and Sales 2023-2025 tables were appended to create a new Sales Table that has all Sales records from years 2022 to 2025 which was then merged with the DimProducts Table using the Primary/Foreign key relationship of the ProductID Column in both Tables to get the Product Price.This is crucial in order to calculate the Actual Revenue.
+### In order for comparison of the current and previous year casualties to be calculated, the month name and year was extracted from a short date format in the Accident Date column:
+![Screenshot (58)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/ea624059-3950-4a18-ae4a-611cea10314d)
 
+### Into a new 'Month' and 'Year' column using the 'TEXT' function.
+![Screenshot (60)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/58ba3a39-6593-45f6-a04c-dbf85c9121d4)
 
-## Analysis.
+## Analysis and Visualization.
+
 1. The Sales Representative can track their performances through-out the periods to plan their marketing activities.
-2. The Team Managers can track their teams' performances through-out the periods to plan their teams' activities.
-3. Executive team can track Revenue numbers to monitor alignment with the set targets to influence medium to long term strategies.
+
+2. 
+3. The Team Managers can track their teams' performances through-out the periods to plan their teams' activities.
+4. Executive team can track Revenue numbers to monitor alignment with the set targets to influence medium to long term strategies.
 
 ## Sales Performance Overview.
 1. Total  Revenue
