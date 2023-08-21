@@ -88,5 +88,10 @@ The road surface and casualties values were extracted from the pivot tables into
 
 ## Conclusion.
 The original dataset was preserved and all data processes transformations were carried out a working sheet. This is advisable incase there is a need for the raw dataset or in the event of an error/mistakes during data analysis stage. 
-A data analysis sheet was also created with all the KPI used in the entire analytical process in order to allow the stakeholders, or even a new developer to easily identify the aggregations used to build the necessary pivot tables used in analysing the dataset.
-With all that being done, the request from the stakeholders was fulfilled, and a report addressing their demands produced. 
+A data analysis sheet was also created with all the KPI used in the entire analytical process in order to allow the stakeholders, or even a new developer to easily identify the aggregations used to build the necessary pivot tables used in analysing the dataset. Filters were also added to enable further drill down of the dataset. 
+Finally, some icons on the dashboard were hyperlinked in order to take the user to a particular dashboard and webpage immediately the icons are clicked.
+
+![Screenshot (82)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/5f4aba27-23cc-4394-a9dc-6367f1914d54)
+
+
+With all that being done, the request from the stakeholders was fulfilled, and a report with an accompanying dynamic dashboard addressing their demands produced. 
