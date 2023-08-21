@@ -1,4 +1,5 @@
  # Road Accident Dashboard
+![Screenshot (74)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/6693ffb3-bedf-4aec-ac3f-af14133af63c)
 
 ## About The Project.
 This is a manipulated and made up dataset from Kaggle that reports road casualties in a particular location.
@@ -11,10 +12,14 @@ The client wants to create a road accident dashboard for the years 2021 and 2022
 
 ### Secondary KPIs
   Total casualties with respect to vehicle type.
+  
   Monthly trend showing comparison of casualties for current year and previous year.
+  
   Maximum casualties by Road Type.
+  
   Distribution of total casualties by Road Surface.
-  Relation between casualties by Area/Location and by Day/Night.
+  
+  Relationship between casualties by Area/Location and by Day/Night.
 
 ### Stakeholders 
   Organisations and Departments making use of this dashboard are:
@@ -41,45 +46,47 @@ First off, the data was inspected to make sure there were no blanks or missing v
 ![Screenshot (60)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/58ba3a39-6593-45f6-a04c-dbf85c9121d4)
 
 ## Analysis and Visualization.
+Pivot tables were used to aggregate all the necessary KPIs and thier respective visualisations were derived off the pivot tables.
 
-1. The Sales Representative can track their performances through-out the periods to plan their marketing activities.
+### Total Casualties
+![Screenshot (72)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/ab53c6cf-a982-4748-8152-12b8d07048e0)
 
-2. 
-3. The Team Managers can track their teams' performances through-out the periods to plan their teams' activities.
-4. Executive team can track Revenue numbers to monitor alignment with the set targets to influence medium to long term strategies.
+### Total casualties and percentage of total with respect to accident severity and maximum casualties by type of vehicle.
+Each level of accident severity was divided by the total of all accident severities to arrive at the death totals and percentage by accident severity:
+![Screenshot (61)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/c477c9fa-3778-466f-9308-e4359c286daf)
 
-## Sales Performance Overview.
-1. Total  Revenue
-2. Total Revenue Year To Date (YTD)
-3. Total Revenue Previous Year YTD
-4. Total Revenue Same Period Last Year(SPLY)
-5. Total Target
-6. Total TargetYTD
-7. Actual Revenue Performance Previous Year YTD vs Target Previous Year YTD
-8. Actual Revenue Performance YTD vs Target YTD
-9. Revenue Month on Month Percentage Change
-10. Revenue Distribution by Location
-11. Revenue by Channel
-12. Revenue by Product Class
+### Total % by Fatal Casualties
+![Screenshot (70)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/20a058c3-1284-47e9-82b8-325b386462b0)
 
-![Sales Report 1](https://github.com/Ikumoluyi-Taiwo/PortfolioProjects/assets/139241043/bb5c4cea-ef6e-4d0f-9d2c-a59b76e4d3f1)
-![Sales Report 2](https://github.com/Ikumoluyi-Taiwo/PortfolioProjects/assets/139241043/ffe6775b-0fa2-4568-8ce1-73aaf3132432)
+### Total % by Slight Casualties
+![Screenshot (69)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/78c1afa6-1007-4ba0-b001-d64be1713095)
 
-## Marketing Performance.
-1. Revenue Achieved vs Revenue Target
-2. Volume Achieved vs Volume Target
-3. Actual Revenue by Sales Representative
-4. Target Revenue Achievement% by Sales Representative
-5. Actual Volume by Sales Representative
-6. Target Volume Achievement by Sales Representative
-7. Actual Revenue Achievement by Sales Team
-8. Revenue and Volume Achievement by Product.
+### Total % by Serious Casualties
+![Screenshot (67)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/fc507dcd-0c4c-4ef4-b20e-f3cdb3586208)
 
-![Marketing Performance 1](https://github.com/Ikumoluyi-Taiwo/PortfolioProjects/assets/139241043/418b3eab-5631-4bb8-a50e-241e351b45d7)
-![Marketing Performance 2](https://github.com/Ikumoluyi-Taiwo/PortfolioProjects/assets/139241043/33e462b0-8480-4062-9524-8a522dce951e)
+### Maximum casualties by type of vehicle.
+The total of car casualties was divided by the total of all other vehicle types:
+![Screenshot (71)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/ff23091f-5ea2-4caa-8db3-face5bd2f653)
+![Screenshot (73)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/516f25b0-f8ad-4b7b-9f05-d43d143d534a)
 
-## Report.
-You can find the full report of this Analysis here: https://app.powerbi.com/reportEmbed?reportId=73496be3-742d-4bc4-b8dd-6f60f7f80607&autoAuth=true&ctid=c1b84f64-1fcc-4038-a4fa-2bfdda89f208
+### Monthly trend showing comparison of casualties for current year and previous year.
+The month and year values were extracted from the pivot tables into a new table to for use in a line chart:
+![Screenshot (75)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/7a9fe696-1f7f-40cf-bc45-7606124058b5)
+
+### Monthly trend of Current year vs Previous year casualties
+![Screenshot (76)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/38af05a9-29ce-4071-b986-1fb3b301ed75)
+
+### Maximum casualties by Road Type.
+![Screenshot (78)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/21c89ffd-7e4b-456d-bb4b-7004beaeae8e)
+
+### Distribution of total casualties by Road Surface.
+The road surface and casualties values were extracted from the pivot tables into a new table to for use in a treemap:
+![Screenshot (79)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/ff805a31-d36d-497b-9582-c71184425474)
+
+### Relationship between casualties by Area/Location and by Day/Night.
+![Screenshot (81)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/8f32ca5c-92f9-46ff-ae7d-cb82c97dd849)
 
 ## Conclusion.
-The request from the stakeholders was fulfilled, and a report addressing their demands produced. 
+The original dataset was preserved and all data processes transformations were carried out a working sheet. This is advisable incase there is a need for the raw dataset or in the event of an error/mistakes during data analysis stage. 
+A data analysis sheet was also created with all the KPI used in the entire analytical process in order to allow the stakeholders, or even a new developer to easily identify the aggregations used to build the necessary pivot tables used in analysing the dataset.
+With all that being done, the request from the stakeholders was fulfilled, and a report addressing their demands produced. 
