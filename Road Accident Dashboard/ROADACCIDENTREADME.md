@@ -1,5 +1,5 @@
  # README
-![Screenshot (74)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/6693ffb3-bedf-4aec-ac3f-af14133af63c)
+![Screenshot (84)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/21b7b420-cf83-4e7c-8cfe-dd4866d73bc0)
 
 ## About The Project.
 This is a manipulated and made up dataset from Kaggle that reports road casualties in a particular location.
@@ -55,13 +55,13 @@ Pivot tables were used to aggregate all the necessary KPIs and thier respective 
 Each level of accident severity was divided by the total of all accident severities to arrive at the death totals and percentage by accident severity:
 ![Screenshot (61)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/c477c9fa-3778-466f-9308-e4359c286daf)
 
-### Total % by Fatal Casualties
+### Total % by Fatal Severity
 ![Screenshot (70)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/20a058c3-1284-47e9-82b8-325b386462b0)
 
-### Total % by Slight Casualties
+### Total % by Slight Severity
 ![Screenshot (69)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/78c1afa6-1007-4ba0-b001-d64be1713095)
 
-### Total % by Serious Casualties
+### Total % by Serious Severity
 ![Screenshot (67)](https://github.com/Ikumoluyi-Taiwo/Excel-Projects/assets/139241043/fc507dcd-0c4c-4ef4-b20e-f3cdb3586208)
 
 ### Maximum casualties by type of vehicle.
