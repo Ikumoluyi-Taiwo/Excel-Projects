@@ -6,9 +6,9 @@ This is a manipulated and made up dataset from Kaggle that reports road casualti
 
 ## Project Requirement.
 The client wants to create a road accident dashboard for the years 2021 and 2022 so as to have some insights on the below requirements:
-### Primary KPI Total casualties taken place after the accident.
+### Primary KPI: Total casualties taken place after the accident.
 
-### Primary KPIs Total casualties and percentage of total with respect to accident severity and maximum casualties by type of vehicle.
+### Primary KPIs: Total casualties and percentage of total with respect to accident severity and maximum casualties by type of vehicle.
 
 ### Secondary KPIs
   Total casualties with respect to vehicle type.
